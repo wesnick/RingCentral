@@ -1,0 +1,32 @@
+{
+    "name": "wesnick/ringcentral",
+    "description": "RingCentral API Client",
+    "keywords": ["ringcentral", "ringout", "faxout"],
+    "homepage": "https://github.com/wesnick/ringcentral",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wesley O. Nichols",
+            "email": "wesley.o.nichols@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.x-dev",
+        "kriswallsmith/buzz": "v0.10",
+        "doctrine/cache": "1.0.x-dev",
+        "symfony/console": "2.3.x-dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "bin": ["bin/ringcentral"]
+}
