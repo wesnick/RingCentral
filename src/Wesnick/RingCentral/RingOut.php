@@ -13,7 +13,7 @@ class RingOut
 {
 
     const RINGOUT_API_HOST = 'https://service.ringcentral.com';
-    const RINGOUT_API_ENDPOINT = 'ringout.asp';
+    const RINGOUT_API_ENDPOINT = '/ringout.asp';
     const SUCCESS_STATUS = 'OK';
 
     /**
